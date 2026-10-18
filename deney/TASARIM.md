@@ -37,4 +37,4 @@ Ek: düzeltme turu (ihlal varsa tek düzeltme mesajı, sonra yeniden puan; 0/1),
 - H1: T1'de A ≈ B (bilgi eşit). H2: T2–T3'te B > A (süreklilik: Pazartesi, süt güncellemesi). H3: C, B'den daha fazla token harcar ve kural uyumu B'den yüksek değildir (ETH/ICLR 2026 bulgusu). Çürütülürse videoda söylenir.
 
 ## Sınırlar
-Tek model ailesi; kurgusal iş; alt ajan = Claude Code ile aynı model ama arayüz değil (çekimde gerçek Claude Code kullanılacak, sayılar bu deneyden). ChatGPT Projects kodsuz gösterim için, ölçüme dahil değil.
+Tek model ailesi; kurgusal iş; modeller yazılımla çağrıldı (sohbet arayüzü değil). ChatGPT/Claude Projects ölçüme dahil değil.

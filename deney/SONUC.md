@@ -1,6 +1,6 @@
 # Deney sonucu — tek prompt / üç dosya / yapay zekâya yazdırılmış dosya (2026-10-18)
 
-Model: tüm kollarda Claude Sonnet 5.5 (alt ajan). Tasarım: `../TASARIM.md`. Puanlama makineyle (`puanla.py`, `kod/kontrol.py`), çelişki durumları elle etiketlendi.
+Model: tüm kollarda Claude Sonnet 5.5 (alt ajan). Tasarım: `TASARIM.md`. Puanlama makineyle (`puanla.py`, `kod/kontrol.py`), çelişki durumları elle etiketlendi.
 Koşu sayısı: kafe v1 27 + kafe v2 24 + kod 9 = **60 koşu**. v1'de T2 "bu hafta Pazartesi" dediği için süreklilik ölçümü belirsizdi; v2'de "önümüzdeki üç hafta Pazartesileri" denip T2–T3 yeniden koşuldu. Aşağıdaki sonuçlar **v2** ve **kod** deneyinden; v1 yalnız kural uyumu ve token için sayıldı.
 
 ## 1. Kural uyumu (8 kural × 3 gönderi, her koşuda)
@@ -47,13 +47,6 @@ C r1 istenmeyen `.gitignore` ekledi (şişkin AGENTS.md'de "git akışı" bölü
 - H3 (C, B'den pahalı, uyum daha yüksek değil): **doğrulandı** (+%13–20; uyum eşit; çelişkide daha kötü: sessiz).
 - Beklenmeyen: dosya kuralının yeni bilgiye karşı "kazanması" (Bulgu 3). Videoda bunu saklamıyoruz; tam tersine ders bu.
 
-## 7. Videoda nasıl gösterilir
-1. Kanca: iki ekran, 3. hafta. Solda Pazartesi'ye gönderi (kapalı günde!), sağda "Pazartesi kapalı". Aynı model.
-2. Kural uyumu tablosu: hepsi sıfır. "Prompt'u güzelleştirmek bir şey değiştirmedi."
-3. DURUM.md'yi canlı aç: 10 satır. "Hafıza değil, dosya."
-4. Çelişki anı: badem sütü. A'nın sessiz kural çiğnemesi, B'nin sorması, C'nin susması. Doğru hareket: TALIMAT'ı güncelle, yeniden iste.
-5. Fatura: C sütunu. "Yapay zekâya 'bana kapsamlı bir talimat dosyası yaz' dedirtme."
-6. Repo: üç dosya + kodsuz sürüm.
 
-## Sınırlar (senaryoda söylenir)
-Tek model ailesi; kurgusal iş; 3 tekrar; alt ajan (Claude Code arayüzü değil, aynı model); token sayıları sistem istemi dâhil, mutlak değil göreli okunmalı; süreklilik ölçümü v1'de tasarım hatası nedeniyle geçersizdi, v2'de düzeltildi (dürüstlük: bunu da söyleyebiliriz).
+## Sınırlar
+Tek model ailesi; kurgusal iş; 3 tekrar; modeller yazılımla çağrıldı (sohbet arayüzü değil); token sayıları sistem istemi dâhil, mutlak değil göreli okunmalı; süreklilik ölçümü ilk sürümde tasarım hatası nedeniyle geçersizdi, ikinci sürümde düzeltildi.
