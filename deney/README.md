@@ -7,6 +7,7 @@
 - `SONUC.md`: sonuçlar ve sınırlar.
 
 Tekrar koşmak için: bir klasöre üç dosyayı koy, yapay zekâ aracına "önce bu dosyaları oku" de, görevleri sırayla ver, her çıktıyı `puanla.py` ile puanla.
-Ham model çıktıları repoya konmadı; sonuçlar ve yöntem `SONUC.md` ile `TASARIM.md`'de.
+- `ham/`: modelin bütün çıktıları, dokunulmadan: kafe deneyi (3 kurulum × 3 tekrar × 3 hafta) ve kod görevi (3 × 3). C kolunun 2.291 kelimelik talimatı `ham/kafe/C_ai_dosya/r1/TALIMAT.md`.
+- `veri/`: koşu başına token (`token.csv`) ve kural puanları (`puanlar_v1.json`, `puanlar_v2.json`).
 
 ← [Ana sayfa](../README.md)

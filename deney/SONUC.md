@@ -26,7 +26,7 @@ A'nın üçünde de Pazartesi'ye "badem sütlü latte duyurusu" kondu: kapalı g
 | Yazmadı, çıktıda görünür notla sordu | — | **3/3** | 0/3 |
 | Yazmadı, uyarıyı yalnız DURUM.md'ye yazdı ("ÇELİŞKİ / AÇIK SORU"; çıktıda sessiz) | — | — | **3/3** |
 **Bulgu 3:** Dosyadaki kural, sohbetteki yeni bilgiye karşı kazanıyor. B güvenli ama bloke ediyor ("Ayşe onaylasın"); C hem bloke ediyor hem söylemiyor (kullanıcı çıktıya bakınca badem yok, neden yok belli değil). A kullanıcıyı dinledi ama marka kuralını sessizce çiğnedi.
-Ders: bağlam dosyası **canlı belge**. Kural değişiyorsa sohbette söyleme, dosyayı güncelle (TALIMAT'a "badem sütü eklendi" yaz). Bu, atölyede gösterilecek "doğru kullanım" anı.
+Ders: bağlam dosyası **canlı belge**. Kural değişiyorsa sohbette söyleme, dosyayı güncelle (TALIMAT'a "badem sütü eklendi" yaz).
 
 ## 4. Maliyet (alt ajan toplam token; sistem istemi dâhil, kollar arası kıyas için)
 | | A | B | C | C / B |
@@ -45,7 +45,7 @@ C r1 istenmeyen `.gitignore` ekledi (şişkin AGENTS.md'de "git akışı" bölü
 - H1 (T1'de A ≈ B): **doğrulandı.**
 - H2 (T2–T3'te B > A süreklilikte): **doğrulandı** (3/3 vs 0/3).
 - H3 (C, B'den pahalı, uyum daha yüksek değil): **doğrulandı** (+%13–20; uyum eşit; çelişkide daha kötü: sessiz).
-- Beklenmeyen: dosya kuralının yeni bilgiye karşı "kazanması" (Bulgu 3). Videoda bunu saklamıyoruz; tam tersine ders bu.
+- Beklenmeyen: dosya kuralının yeni bilgiye karşı "kazanması" (Bulgu 3). Bunu bir zayıflık değil, kullanım dersi olarak görüyoruz.
 
 
 ## Sınırlar

@@ -1,6 +1,6 @@
 # Yapay zekâ seni her seferinde unutmasın: 3 dosyalık bağlam şablonu
 
-**Mivu Atölye 1** · Video: *yayında bağlantı eklenecek*
+**Mivu Atölye 1** · Video: [Yapay Zekâ Seni Neden Her Seferinde Unutuyor?](https://www.youtube.com/@heymivu) (YouTube, @heymivu)
 
 Her yeni sohbette yapay zekâya her şeyi baştan anlatıyorsan, sorun prompt'ta değil. Bu repo, hatırlamayı **üç kısa dosyaya** devretmen için hazır şablonlar ve videodaki deneyin tüm dosyalarını içeriyor.
 
@@ -57,14 +57,14 @@ Ve bir alışkanlık: **bir şey değiştiğinde sohbete değil, dosyaya yaz.**
 
 ## Deneyde ne bulduk?
 
-Kurgusal bir kafe için üç hafta boyunca Instagram planı yazdırdık. Aynı model, aynı istekler, üç kurulum, her biri üç tekrar. Ayrıntı: [`deney/`](deney/)
+Kurgusal bir kafe için üç hafta boyunca Instagram planı yazdırdık. Aynı model, aynı istekler, üç kurulum, her biri üç tekrar. Ayrıntı: [`deney/`](deney/) · ham çıktıların hepsi: [`deney/ham/`](deney/ham/)
 
-| | Tek uzun mesaj | 3 kısa dosya (insan yazımı) | 3 dosya (talimatı yapay zekâ yazdı, 2.300 kelime) |
+| | Tek uzun mesaj | 3 kısa dosya (insan yazımı) | 3 dosya (talimatı yapay zekâ yazdı, 2.291 kelime) |
 |---|---|---|---|
 | 8 kurala uyum | ihlal yok | ihlal yok | ihlal yok |
 | 3. haftada "Pazartesi kapalı"yı hatırladı | **0 / 3** | **3 / 3** | **3 / 3** |
 | Kuralla çelişen yeni istek | 3 / 3 kuralı çiğnedi | 3 / 3 yazmadı, açıkça sordu | 3 / 3 yazmadı, çıktıda söylemedi |
-| Token (tek mesaja göre) | taban | %1–6 fazla | **%18–23 fazla** |
+| Token (koşu başına ortalama) | ~72.000 | ~75.300 (tek mesajdan ~%4 fazla) | ~85.300 (**B'den %13–20 fazla**) |
 
 Kısacası: kısa ve net kurallara model her yerde uyuyor. Fark **süreklilikte**: geçen haftanın kararını mesaja eklemeyi unutursan model de unutur, dosyada yazılıysa unutmaz. Yapay zekâya yazdırılan uzun talimat dosyası daha iyi sonuç vermedi, daha pahalıya geldi.
 
@@ -74,7 +74,7 @@ Kısacası: kısa ve net kurallara model her yerde uyuyor. Fark **süreklilikte*
 
 ## Bunu yapay zekâya yazdırma
 
-"Bana kapsamlı bir talimat dosyası yaz" deme. Bizim denememizde de, 2026 tarihli bir araştırmada da (Gloaguen ve ark., ön baskı) yapay zekâya yazdırılan bağlam dosyaları başarıyı artırmadı, maliyeti artırdı. **Kısa yaz, kendin yaz.**
+"Bana kapsamlı bir talimat dosyası yaz" deme. Bizim denememizde de, 2026 tarihli bir araştırmada da (Gloaguen ve ark., ICLR 2026) yapay zekâya yazdırılan bağlam dosyaları başarıyı artırmadı, maliyeti artırdı. **Kısa yaz, kendin yaz.**
 
 ---
 

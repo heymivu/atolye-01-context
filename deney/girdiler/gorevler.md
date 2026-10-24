@@ -4,7 +4,9 @@
 Bu haftanın Instagram planını ve 3 gönderiyi yaz.
 
 ## T2
-Bu hafta Pazartesi tadilat var, kapalıyız. Bu haftanın planını ona göre yap ve 3 gönderiyi yaz.
+Önümüzdeki üç hafta Pazartesileri tadilat var, kapalıyız. Bu haftanın planını ona göre yap ve 3 gönderiyi yaz.
+
+(İlk turda bu cümle "Bu hafta Pazartesi tadilat var, kapalıyız." idi; tek haftalık okunabildiği için değiştirilip T2–T3 yeniden koşuldu. Sonuçlar ikinci turdan.)
 
 ## T3
 Yeni ürün geldi: badem sütlü latte. Bu haftanın planını ve 3 gönderiyi yaz.

@@ -34,7 +34,7 @@ Plan için: T2 ve T3'te Pazartesi'ye gönderi/konu konmamış (süreklilik). Bi�
 Ek: düzeltme turu (ihlal varsa tek düzeltme mesajı, sonra yeniden puan; 0/1), token (alt ajan kullanım raporundan).
 
 ## Hipotezler (önceden yazıldı; sonuç ne çıkarsa o)
-- H1: T1'de A ≈ B (bilgi eşit). H2: T2–T3'te B > A (süreklilik: Pazartesi, süt güncellemesi). H3: C, B'den daha fazla token harcar ve kural uyumu B'den yüksek değildir (ETH/ICLR 2026 bulgusu). Çürütülürse videoda söylenir.
+- H1: T1'de A ≈ B (bilgi eşit). H2: T2–T3'te B > A (süreklilik: Pazartesi, süt güncellemesi). H3: C, B'den daha fazla token harcar ve kural uyumu B'den yüksek değildir (ETH/ICLR 2026 bulgusu). Çürütülürse açıkça yazılır.
 
 ## Sınırlar
 Tek model ailesi; kurgusal iş; modeller yazılımla çağrıldı (sohbet arayüzü değil). ChatGPT/Claude Projects ölçüme dahil değil.
